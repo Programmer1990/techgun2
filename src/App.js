@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState} from 'react';              // input box values changes code in all lines
 import './index.css';
 import Student from './Student';
 
