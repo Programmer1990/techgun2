@@ -8,8 +8,8 @@ function App(){
   function getData(val)  
     {
       console.warn(val.target.value)
-      setData(val.target.value)
-      setPrint(false)
+      setData(val.target.value)// Val property contains the same value as the baseVal property.If the given attribute or property. target use for button(MDN)
+      setPrint(false) //with this line text will erase from screen when we will clear text box.
     }
   
     return(
